@@ -24,7 +24,7 @@ public class StudentPersistenceAdapter implements StudentPersistencePort {
 
     @Override
     public List<Student> findAll() {
-        return mapper.toStudents(studentRepository.findAll());
+        return mapper.toStudentList(studentRepository.findAll());
     }
 
     @Override

@@ -1,18 +1,21 @@
-package com.crymuzz.arquitecturahexsudent.domain.model;
+package com.crymuzz.arquitecturahexsudent.infrastructure.adapter.input.rest.model.response;
+
 
 import lombok.*;
 
 @Builder
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @ToString
-public class Student {
+public class StudentResponse {
 
     private Long id;
     private String firstname;
     private String lastname;
     private Integer age;
     private String address;
+
+
 }
